@@ -11,7 +11,7 @@
 <link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Gymnasium Basics" href="../../tutorials/gymnasium_basics/" /><link rel="prev" title="Zaxxon" href="../atari/zaxxon/" />
         <link rel="canonical" href="https://gymnasium.farama.org/environments/third_party_environments.html" />
 
-    <link rel="shortcut icon" href="../../_static/favicon.png"/><!-- Generated with Sphinx 7.1.0 and Furo 2023.05.20.dev1 -->
+    <link rel="shortcut icon" href="../../_static/favicon.png"/><!-- Generated with Sphinx 7.1.2 and Furo 2023.05.20.dev1 -->
         <title>Third-Party Environments - Gymnasium Documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=362ab14a" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=2b6f8eb5452c44539a42dd9ada0a48f56e5f404d" />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=ca3c1c84" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=e5fbc548" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=d98e5db1aa483f10fd0a50bf79700ebb0c5bab79" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=5d0deb98f4b2e6cecaee64745957f1068f205919" />
     
     
 
@@ -673,6 +673,10 @@ It is built on the <a class="reference external" href="https://github.com/bullet
 </section>
 <section id="other-environments">
 <h2>Other environments<a class="headerlink" href="#other-environments" title="Permalink to this heading">#</a></h2>
+<section id="connect-4-gym-an-environment-for-practicing-self-playing">
+<h3><a class="reference external" href="https://github.com/lucasBertola/Connect-4-Gym-env-Reinforcement-learning">Connect-4-gym : An environment for practicing self playing</a><a class="headerlink" href="#connect-4-gym-an-environment-for-practicing-self-playing" title="Permalink to this heading">#</a></h3>
+<p>Connect-4-Gym is an environment designed for creating AIs that learn by playing against themselves and assigning them an Elo rating. This environment can be used to train and evaluate reinforcement learning agents on the classic board game Connect Four.</p>
+</section>
 <section id="compilergym-optimise-compiler-tasks">
 <h3><a class="reference external" href="https://github.com/facebookresearch/CompilerGym">CompilerGym: Optimise compiler tasks</a><a class="headerlink" href="#compilergym-optimise-compiler-tasks" title="Permalink to this heading">#</a></h3>
 <p>Reinforcement learning environments for compiler optimization tasks, such as LLVM phase ordering, GCC flag tuning, and CUDA loop nest code generation.</p>
@@ -1029,7 +1033,7 @@ It is built on the <a class="reference external" href="https://github.com/bullet
             const subSectionContainerElem = Object.assign(
                 document.createElement('div'), {
                   className:'farama-header-menu__subsections-container',
-                  style: key == "Mature Projects" ? "display: flex" : ""
+                  style: 'display: flex'
                 }
             )
             Object.keys(subSections).forEach((subKey, i) => {
@@ -1044,7 +1048,7 @@ It is built on the <a class="reference external" href="https://github.com/bullet
                   innerText: subKey
                 }
               ))
-              const ulElem = createProjectsList(subSections[subKey], key !== "Foundation");
+              const ulElem = createProjectsList(subSections[subKey], key !== 'Foundation');
               subSectionElem.appendChild(ulElem);
               subSectionContainerElem.appendChild(subSectionElem);
             })
