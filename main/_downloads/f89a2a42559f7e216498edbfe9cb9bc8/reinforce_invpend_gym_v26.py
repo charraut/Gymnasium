@@ -33,11 +33,12 @@ An explanation of the Gymnasium v0.26+ `Env.step()` function
 ``env.step(A)`` allows us to take an action 'A' in the current environment 'env'. The environment then executes the action
 and returns five variables:
 
--  ``next_obs``: This is the observation that the agent will receive after taking the action.
--  ``reward``: This is the reward that the agent will receive after taking the action.
--  ``terminated``: This is a boolean variable that indicates whether or not the environment has terminated.
--  ``truncated``: This is a boolean variable that also indicates whether the episode ended by early truncation, i.e., a time limit is reached.
--  ``info``: This is a dictionary that might contain additional information about the environment.
+ - ``next_obs``: This is the observation that the agent will receive after taking the action.
+ - ``reward``: This is the reward that the agent will receive after taking the action.
+ - ``terminated``: This is a boolean variable that indicates whether or not the environment has terminated.
+ - ``truncated``: This is a boolean variable that also indicates whether the episode ended by early truncation, i.e., a time limit is reached.
+ - ``info``: This is a dictionary that might contain additional information about the environment.
+
 """
 from __future__ import annotations
 
@@ -135,7 +136,7 @@ class Policy_Network(nn.Module):
 # Now that we are done building the policy, let us develop **REINFORCE** which gives life to the policy network.
 # The algorithm of REINFORCE could be found above. As mentioned before, REINFORCE aims to maximize the Monte-Carlo returns.
 #
-# Fun Fact: REINFROCE is an acronym for " 'RE'ward 'I'ncrement 'N'on-negative 'F'actor times 'O'ffset 'R'einforcement times 'C'haracteristic 'E'ligibility
+# Fun Fact: REINFORCE is an acronym for " 'RE'ward 'I'ncrement 'N'on-negative 'F'actor times 'O'ffset 'R'einforcement times 'C'haracteristic 'E'ligibility
 #
 # Note: The choice of hyperparameters is to train a decently performing agent. No extensive hyperparameter
 # tuning was done.

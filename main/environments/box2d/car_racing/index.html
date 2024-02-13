@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" data-content_root="../../../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark">
@@ -11,15 +11,15 @@
 <link rel="index" title="Index" href="../../../genindex/" /><link rel="search" title="Search" href="../../../search/" /><link rel="next" title="Lunar Lander" href="../lunar_lander/" /><link rel="prev" title="Bipedal Walker" href="../bipedal_walker/" />
         <link rel="canonical" href="https://gymnasium.farama.org/environments/box2d/car_racing.html" />
 
-    <link rel="shortcut icon" href="../../../_static/favicon.png"/><!-- Generated with Sphinx 7.1.2 and Furo 2023.05.20.dev1 -->
+    <link rel="shortcut icon" href="../../../_static/favicon.png"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.08.19.dev1 -->
         <title>Car Racing - Gymnasium Documentation</title>
-      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=362ab14a" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?digest=2b6f8eb5452c44539a42dd9ada0a48f56e5f404d" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=3e7f4c72" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=ca3c1c84" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=e5fbc548" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?digest=5d0deb98f4b2e6cecaee64745957f1068f205919" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=49cbaffd" />
     
     
 
@@ -216,38 +216,42 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../content/basic_usage/">Basic Usage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../content/gym_compatibility/">Compatibility with Gym</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../content/migration-guide/">v21 to v26 Migration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/basic_usage/">Basic Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/train_agent/">Training an Agent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/create_custom_env/">Create a Custom Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/record_agent/">Recording Agents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/speed_up_env/">Speeding Up Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/gym_compatibility/">Compatibility with Gym</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/migration_guide/">Migration Guide - v0.21 to v1.0.0</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">API</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../api/env/">Env</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../api/registry/">Register and Make</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/registry/">Make and register</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../api/spaces/">Spaces</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Spaces</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/spaces/fundamental/">Fundamental Spaces</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/spaces/composite/">Composite Spaces</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/spaces/utils/">Spaces Utils</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/spaces/vector_utils/">Spaces Vector Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/vector/utils/">Utility functions</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../api/wrappers/">Wrappers</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Wrappers</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/wrappers/table/">List of Wrappers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/wrappers/misc_wrappers/">Misc Wrappers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/wrappers/action_wrappers/">Action Wrappers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/wrappers/observation_wrappers/">Observation Wrappers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/wrappers/reward_wrappers/">Reward Wrappers</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../api/vector/">Vector</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../api/utils/">Utils</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../../api/experimental/">Experimental</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Experimental</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/experimental/functional/">Functional Environment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/experimental/wrappers/">Wrappers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/experimental/vector/">Vectorizing Environment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/experimental/vector_wrappers/">Vector Environment Wrappers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/experimental/vector_utils/">Utility functions for vectorisation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../api/vector/">Vectorize</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Vectorize</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/vector/wrappers/">Wrappers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/vector/async_vector_env/">AsyncVectorEnv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/vector/sync_vector_env/">SyncVectorEnv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/vector/utils/">Utility functions</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/utils/">Utility functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/functional/">Functional Env</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Environments</span></p>
 <ul class="current">
@@ -410,6 +414,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../tutorials/training_agents/FrozenLake_tuto/">Frozenlake benchmark</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorials/third-party-tutorials/">Third-Party Tutorials</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://www.comet.com/docs/v2/integrations/ml-frameworks/gymnasium/?utm_source=gymnasium&amp;utm_medium=partner&amp;utm_campaign=partner_gymnasium_2023&amp;utm_content=docs_gymnasium">Comet Tutorial</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
@@ -465,8 +470,8 @@
           </div>
           <article role="main">
             
-            <section id="car-racing">
-<h1>Car Racing<a class="headerlink" href="#car-racing" title="Permalink to this heading">#</a></h1>
+            <section class="tex2jax_ignore mathjax_ignore" id="car-racing">
+<h1>Car Racing<a class="headerlink" href="#car-racing" title="Link to this heading">#</a></h1>
 <figure class="align-default" id="id1">
 <a class="reference internal image-reference" href="../../../_images/car_racing.gif"><img alt="../../../_images/car_racing.gif" src="../../../_images/car_racing.gif" style="width: 200px;" /></a>
 </figure>
@@ -492,21 +497,21 @@
 </table>
 </div>
 <section id="description">
-<h2>Description<a class="headerlink" href="#description" title="Permalink to this heading">#</a></h2>
+<h2>Description<a class="headerlink" href="#description" title="Link to this heading">#</a></h2>
 <p>The easiest control task to learn from pixels - a top-down
 racing environment. The generated track is random every episode.</p>
 <p>Some indicators are shown at the bottom of the window along with the
 state RGB buffer. From left to right: true speed, four ABS sensors,
 steering wheel position, and gyroscope.
 To play yourself (it’s rather fast for humans), type:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">gymnasium</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">box2d</span><span class="o">/</span><span class="n">car_racing</span><span class="o">.</span><span class="n">py</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>gymnasium/envs/box2d/car_racing.py
 </pre></div>
 </div>
 <p>Remember: it’s a powerful rear-wheel drive car - don’t press the accelerator
 and turn at the same time.</p>
 </section>
 <section id="action-space">
-<h2>Action Space<a class="headerlink" href="#action-space" title="Permalink to this heading">#</a></h2>
+<h2>Action Space<a class="headerlink" href="#action-space" title="Link to this heading">#</a></h2>
 <p>If continuous there are 3 actions :</p>
 <ul class="simple">
 <li><p>0: steering, -1 is full left, +1 is full right</p></li>
@@ -523,70 +528,76 @@ and turn at the same time.</p>
 </ul>
 </section>
 <section id="observation-space">
-<h2>Observation Space<a class="headerlink" href="#observation-space" title="Permalink to this heading">#</a></h2>
+<h2>Observation Space<a class="headerlink" href="#observation-space" title="Link to this heading">#</a></h2>
 <p>A top-down 96x96 RGB image of the car and race track.</p>
 </section>
 <section id="rewards">
-<h2>Rewards<a class="headerlink" href="#rewards" title="Permalink to this heading">#</a></h2>
-<p>The reward is -0.1 every frame and +1000/N for every track tile visited,
-where N is the total number of tiles visited in the track. For example,
-if you have finished in 732 frames, your reward is
-1000 - 0.1*732 = 926.8 points.</p>
+<h2>Rewards<a class="headerlink" href="#rewards" title="Link to this heading">#</a></h2>
+<p>The reward is -0.1 every frame and +1000/N for every track tile visited, where N is the total number of tiles
+visited in the track. For example, if you have finished in 732 frames, your reward is 1000 - 0.1*732 = 926.8 points.</p>
 </section>
 <section id="starting-state">
-<h2>Starting State<a class="headerlink" href="#starting-state" title="Permalink to this heading">#</a></h2>
+<h2>Starting State<a class="headerlink" href="#starting-state" title="Link to this heading">#</a></h2>
 <p>The car starts at rest in the center of the road.</p>
 </section>
 <section id="episode-termination">
-<h2>Episode Termination<a class="headerlink" href="#episode-termination" title="Permalink to this heading">#</a></h2>
-<p>The episode finishes when all the tiles are visited. The car can also go
-outside the playfield - that is, far off the track, in which case it will
-receive -100 reward and die.</p>
+<h2>Episode Termination<a class="headerlink" href="#episode-termination" title="Link to this heading">#</a></h2>
+<p>The episode finishes when all the tiles are visited. The car can also go outside the playfield -
+that is, far off the track, in which case it will receive -100 reward and die.</p>
 </section>
 <section id="arguments">
-<h2>Arguments<a class="headerlink" href="#arguments" title="Permalink to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">lap_complete_percent</span></code> dictates the percentage of tiles that must be visited by
-the agent before a lap is considered complete.</p>
-<p>Passing <code class="docutils literal notranslate"><span class="pre">domain_randomize=True</span></code> enables the domain randomized variant of the environment.
-In this scenario, the background and track colours are different on every reset.</p>
-<p>Passing <code class="docutils literal notranslate"><span class="pre">continuous=False</span></code> converts the environment to use discrete action space.
-The discrete action space has 5 actions: [do nothing, left, right, gas, brake].</p>
+<h2>Arguments<a class="headerlink" href="#arguments" title="Link to this heading">#</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">gymnasium</span> <span class="k">as</span> <span class="nn">gym</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="s2">&quot;CarRacing-v2&quot;</span><span class="p">,</span> <span class="n">render_mode</span><span class="o">=</span><span class="s2">&quot;rgb_array&quot;</span><span class="p">,</span> <span class="n">lap_complete_percent</span><span class="o">=</span><span class="mf">0.95</span><span class="p">,</span> <span class="n">domain_randomize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">continuous</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">env</span>
+<span class="go">&lt;TimeLimit&lt;OrderEnforcing&lt;PassiveEnvChecker&lt;CarRacing&lt;CarRacing-v2&gt;&gt;&gt;&gt;&gt;</span>
+
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">lap_complete_percent=0.95</span></code> dictates the percentage of tiles that must be visited by
+the agent before a lap is considered complete.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">domain_randomize=False</span></code> enables the domain randomized variant of the environment.
+In this scenario, the background and track colours are different on every reset.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">continuous=True</span></code> converts the environment to use discrete action space.
+The discrete action space has 5 actions: [do nothing, left, right, gas, brake].</p></li>
+</ul>
 </section>
 <section id="reset-arguments">
-<h2>Reset Arguments<a class="headerlink" href="#reset-arguments" title="Permalink to this heading">#</a></h2>
+<h2>Reset Arguments<a class="headerlink" href="#reset-arguments" title="Link to this heading">#</a></h2>
 <p>Passing the option <code class="docutils literal notranslate"><span class="pre">options[&quot;randomize&quot;]</span> <span class="pre">=</span> <span class="pre">True</span></code> will change the current colour of the environment on demand.
 Correspondingly, passing the option <code class="docutils literal notranslate"><span class="pre">options[&quot;randomize&quot;]</span> <span class="pre">=</span> <span class="pre">False</span></code> will not change the current colour of the environment.
-<code class="docutils literal notranslate"><span class="pre">domain_randomize</span></code> must be <code class="docutils literal notranslate"><span class="pre">True</span></code> on init for this argument to work.
-Example usage:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">gymnasium</span> <span class="k">as</span> <span class="nn">gym</span>
-<span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="s2">&quot;CarRacing-v1&quot;</span><span class="p">,</span> <span class="n">domain_randomize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<code class="docutils literal notranslate"><span class="pre">domain_randomize</span></code> must be <code class="docutils literal notranslate"><span class="pre">True</span></code> on init for this argument to work.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">gymnasium</span> <span class="k">as</span> <span class="nn">gym</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="s2">&quot;CarRacing-v2&quot;</span><span class="p">,</span> <span class="n">domain_randomize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># normal reset, this changes the colour scheme by default</span>
-<span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="go"># normal reset, this changes the colour scheme by default</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">obs</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
 
-<span class="c1"># reset with colour scheme change</span>
-<span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;randomize&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">})</span>
+<span class="go"># reset with colour scheme change</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">randomize_obs</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;randomize&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">})</span>
 
-<span class="c1"># reset with no colour scheme change</span>
-<span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;randomize&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+<span class="go"># reset with no colour scheme change</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">non_random_obs</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;randomize&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+
 </pre></div>
 </div>
 </section>
 <section id="version-history">
-<h2>Version History<a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
+<h2>Version History<a class="headerlink" href="#version-history" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>v1: Change track completion logic and add domain randomization (0.24.0)</p></li>
 <li><p>v0: Original version</p></li>
 </ul>
 </section>
 <section id="references">
-<h2>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Chris Campbell (2014), http://www.iforce2d.net/b2dtut/top-down-car.</p></li>
 </ul>
 </section>
 <section id="credits">
-<h2>Credits<a class="headerlink" href="#credits" title="Permalink to this heading">#</a></h2>
+<h2>Credits<a class="headerlink" href="#credits" title="Link to this heading">#</a></h2>
 <p>Created by Oleg Klimov</p>
 </section>
 </section>
@@ -758,9 +769,9 @@ Example usage:</p>
         })()
       </script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=5ba28104"></script>
+    <script src="../../../_static/documentation_options.js?v=ed34540e"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
-    <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../_static/scripts/furo.js?v=7660844c"></script>
     
     <script>
